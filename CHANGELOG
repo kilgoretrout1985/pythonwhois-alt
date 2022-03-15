@@ -1,3 +1,8 @@
+2.4.5:
+
+	- Fix for the unclosed socket warning 
+		https://github.com/kilgoretrout1985/pythonwhois-alt/pull/1
+
 2.4.4:
 
 	- Python 3.7 compatibility.
