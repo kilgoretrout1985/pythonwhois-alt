@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setuptools.setup(
     name='pythonwhois-alt',
-    version='2.4.5',
+    version='2.4.6',
     packages=['pythonwhois'],
     package_dir={"pythonwhois":"pythonwhois"},
     package_data={"pythonwhois":["*.dat"]},
