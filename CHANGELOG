@@ -1,3 +1,8 @@
+2.4.6:
+
+	- Fixed pythonwhois from hanging on some FR-domains.
+	- pwhois cli-tool python3 compatible.
+
 2.4.5:
 
 	- Fix for the unclosed socket warning 
