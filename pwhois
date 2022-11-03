@@ -1,10 +1,11 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 import argparse, pythonwhois, json, datetime, sys
 try:
 	from collections import OrderedDict
 except ImportError as e:
 	from ordereddict import OrderedDict
+
 
 parser = argparse.ArgumentParser(description="Retrieves and parses WHOIS data for a domain name.")
 parser.add_argument("-r", "--raw", action="store_true", help="Outputs raw WHOIS data and doesn't attempt to parse it. Segments are separated by a double-dash (--).")
@@ -27,7 +28,10 @@ else:
 		data = f.read().split("\n--\n")
 
 if args.raw == True:
-	print("\n--\n".join([x.encode("utf-8") for x in data]))
+	if sys.version_info < (3, 0):
+		print("\n--\n".join([x.encode("utf-8") for x in data]))
+	else:
+		print("\n--\n".join([x for x in data]))
 else:
 	if len(server_list) > 0:
 		parsed = pythonwhois.parse.parse_raw_whois(data, normalized=True, never_query_handles=False, handle_server=server_list[-1])
