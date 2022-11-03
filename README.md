@@ -115,7 +115,7 @@ All commands are relative to the root directory of the repository.
 	
 ### Checking the currently parsed data (while editing the parser)
 
-	./pwhois -f test/data/thedomain.com/ .
+	./pwhois -f test/data/thedomain.com .
 	
 (don't forget the dot at the end!)
 	
