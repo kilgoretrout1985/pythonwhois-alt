@@ -1,0 +1,105 @@
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format: YYYY-MM-DDThh:mm:ssZ
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/domain-names-and-support/everything-there-is-to-know-about-domain-names/find-a-domain-name-or-a-holder-using-whois/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+
+domain:                        test.fr
+status:                        ACTIVE
+eppstatus:                     active
+hold:                          NO
+holder-c:                      FC5283-FRNIC
+admin-c:                       ANO00-FRNIC
+tech-c:                        FC39071-FRNIC
+registrar:                     FRENCH CONNEXION
+Expiry Date:                   2025-12-16T23:00:00Z
+created:                       2003-12-16T23:00:00Z
+last-update:                   2021-06-06T13:38:57Z
+source:                        FRNIC
+
+nserver:                       edison.coresystem.pro
+nserver:                       kepler.coresystem.net
+nserver:                       newton.coresystem.fr
+nserver:                       thales.coresystem.mobi
+nserver:                       turing.coresystem.org
+source:                        FRNIC
+
+registrar:                     FRENCH CONNEXION
+address:                       Immeuble Nice Premier
+address:                       455 Promenade des anglais
+address:                       06200 NICE
+country:                       FR
+phone:                         +33.825701700
+fax-no:                        +33.492150350
+e-mail:                        registries@domaine.fr
+website:                       http://www.domaine.fr
+anonymous:                     No
+registered:                    2000-07-03T00:00:00Z
+source:                        FRNIC
+
+nic-hdl:                       FC39071-FRNIC
+type:                          ORGANIZATION
+contact:                       French Connexion
+address:                       62 av estiennes d'orves
+address:                       06000 NIce
+country:                       FR
+phone:                         +33.825701700
+e-mail:                        monetises@domaine.fr
+registrar:                     FRENCH CONNEXION
+anonymous:                     NO
+obsoleted:                     NO
+eppstatus:                     associated
+eppstatus:                     active
+eligstatus:                    not identified
+reachstatus:                   ok
+reachmedia:                    email
+reachsource:                   REGISTRAR
+reachdate:                     2020-09-05T00:00:00Z
+source:                        FRNIC
+
+nic-hdl:                       FC5283-FRNIC
+type:                          ORGANIZATION
+contact:                       French Connexion
+address:                       62, avenue estiennes d'orves
+address:                       06000 Nice
+country:                       FR
+phone:                         +33.825701700
+e-mail:                        monetises@domaine.fr
+registrar:                     FRENCH CONNEXION
+changed:                       2016-10-11T10:20:10Z
+anonymous:                     NO
+obsoleted:                     NO
+eppstatus:                     associated
+eppstatus:                     active
+eligstatus:                    not identified
+reachstatus:                   not identified
+source:                        FRNIC
+
+nic-hdl:                       ANO00-FRNIC
+type:                          PERSON
+contact:                       Ano Nymous
+registrar:                     FRENCH CONNEXION
+anonymous:                     YES
+remarks:                       -------------- WARNING --------------
+remarks:                       While the registrar knows him/her,
+remarks:                       this person chose to restrict access
+remarks:                       to his/her personal data. So PLEASE,
+remarks:                       don't send emails to Ano Nymous. This
+remarks:                       address is bogus and there is no hope
+remarks:                       of a reply.
+remarks:                       -------------- WARNING --------------
+obsoleted:                     NO
+eppstatus:                     associated
+eppstatus:                     active
+eligstatus:                    not identified
+reachstatus:                   not identified
+source:                        FRNIC
+
+>>> WHOIS request date: 2022-11-03T10:20:07.312006Z <<<
+
+

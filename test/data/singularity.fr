@@ -1,94 +1,83 @@
 %%
 %% This is the AFNIC Whois server.
 %%
-%% complete date format : DD/MM/YYYY
-%% short date format    : DD/MM
-%% version              : FRNIC-2.5
+%% complete date format: YYYY-MM-DDThh:mm:ssZ
 %%
 %% Rights restricted by copyright.
-%% See http://www.afnic.fr/afnic/web/mentions-legales-whois_en
+%% See https://www.afnic.fr/en/domain-names-and-support/everything-there-is-to-know-about-domain-names/find-a-domain-name-or-a-holder-using-whois/
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [77.162.55.23 REQUEST] >> singularity.fr
-%%
-%% RL Net [##########] - RL IP [#########.]
-%%
 
-domain:      singularity.fr
-status:      ACTIVE
-hold:        NO
-holder-c:    ANO00-FRNIC
-admin-c:     ANO00-FRNIC
-tech-c:      GR283-FRNIC
-zone-c:      NFC1-FRNIC
-nsl-id:      NSL29702-FRNIC
-registrar:   GANDI
-anniversary: 01/09
-created:     04/04/2009
-last-update: 01/09/2009
-source:      FRNIC
+domain:                        singularity.fr
+status:                        ACTIVE
+eppstatus:                     active
+hold:                          NO
+holder-c:                      ANO00-FRNIC
+admin-c:                       ANO00-FRNIC
+tech-c:                        G768-FRNIC
+registrar:                     GANDI
+Expiry Date:                   2023-08-31T22:01:18Z
+created:                       2009-04-04T19:28:55Z
+last-update:                   2022-07-31T19:14:45Z
+source:                        FRNIC
 
-ns-list:     NSL29702-FRNIC
-nserver:     ns-sec.toile-libre.org
-nserver:     ns-pri.toile-libre.org
-source:      FRNIC
+nserver:                       ns-pri.toile-libre.org
+nserver:                       ns-sec.toile-libre.org
+source:                        FRNIC
 
-registrar:   GANDI
-type:        Isp Option 1
-address:     63-65 boulevard Massena
-address:     PARIS
-country:     FR
-phone:       +33 1 70 37 76 61
-fax-no:      +33 1 43 73 18 51
-e-mail:      support-fr@support.gandi.net
-website:     http://www.gandi.net
-anonymous:   NO
-registered:  09/03/2004
-source:      FRNIC
+registrar:                     GANDI
+address:                       63-65 boulevard Massena
+address:                       75013 PARIS
+country:                       FR
+phone:                         +33.170377661
+fax-no:                        +33.143731851
+e-mail:                        support@support.gandi.net
+website:                       https://www.gandi.net/fr/tlds/fr/
+anonymous:                     No
+registered:                    2004-03-08T00:00:00Z
+source:                        FRNIC
 
-nic-hdl:     ANO00-FRNIC
-type:        PERSON
-contact:     Ano Nymous
-remarks:     -------------- WARNING --------------
-remarks:     While the registrar knows him/her,
-remarks:     this person chose to restrict access
-remarks:     to his/her personal data. So PLEASE,
-remarks:     don't send emails to Ano Nymous. This
-remarks:     address is bogus and there is no hope
-remarks:     of a reply.
-remarks:     -------------- WARNING --------------
-registrar:   GANDI
-changed:     31/08/2009 anonymous@nowhere.xx.fr
-anonymous:   YES
-obsoleted:   NO
-eligstatus:  ok
-source:      FRNIC
+nic-hdl:                       ANO00-FRNIC
+type:                          PERSON
+contact:                       Ano Nymous
+registrar:                     GANDI
+anonymous:                     YES
+remarks:                       -------------- WARNING --------------
+remarks:                       While the registrar knows him/her,
+remarks:                       this person chose to restrict access
+remarks:                       to his/her personal data. So PLEASE,
+remarks:                       don't send emails to Ano Nymous. This
+remarks:                       address is bogus and there is no hope
+remarks:                       of a reply.
+remarks:                       -------------- WARNING --------------
+obsoleted:                     NO
+eppstatus:                     associated
+eppstatus:                     active
+eligstatus:                    ok
+reachstatus:                   not identified
+source:                        FRNIC
 
-nic-hdl:     GR283-FRNIC
-type:        ROLE
-contact:     GANDI ROLE
-address:     Gandi
-address:     15, place de la Nation
-address:     75011 Paris
-country:     FR
-e-mail:      noc@gandi.net
-trouble:     -------------------------------------------------
-trouble:     GANDI is an ICANN accredited registrar
-trouble:     for more information:
-trouble:     Web:   http://www.gandi.net
-trouble:     -------------------------------------------------
-trouble:     - network troubles: noc@gandi.net
-trouble:     - SPAM:             abuse@gandi.net
-trouble:     -------------------------------------------------
-admin-c:     NL346-FRNIC
-tech-c:      NL346-FRNIC
-tech-c:      TUF1-FRNIC
-notify:      noc@gandi.net
-registrar:   GANDI
-changed:     03/03/2006 noc@gandi.net
-anonymous:   NO
-obsoleted:   NO
-source:      FRNIC
+nic-hdl:                       G768-FRNIC
+type:                          ORGANIZATION
+contact:                       GANDI
+address:                       GANDI
+address:                       63-65 Boulevard MASSENA
+address:                       75013 Paris
+country:                       FR
+phone:                         +33.143737851
+fax-no:                        +33.143731851
+e-mail:                        noc@gandi.net
+registrar:                     GANDI
+changed:                       2022-11-02T19:10:01.326498Z
+anonymous:                     NO
+obsoleted:                     NO
+eppstatus:                     associated
+eppstatus:                     active
+eligstatus:                    not identified
+reachstatus:                   not identified
+source:                        FRNIC
+
+>>> WHOIS request date: 2022-11-03T10:20:52.698993Z <<<
 
 
