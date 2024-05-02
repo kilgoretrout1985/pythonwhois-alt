@@ -12,7 +12,6 @@ setuptools.setup(
     packages=['pythonwhois'],
     package_dir={"pythonwhois":"pythonwhois"},
     package_data={"pythonwhois":["*.dat"]},
-    install_requires=['argparse'],
     provides=['pythonwhois'],
     scripts=["pwhois"],
 
